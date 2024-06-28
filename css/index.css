@@ -1,0 +1,80 @@
+/*
+-----------------------------------------    
+Display Flex
+-----------------------------------------
+*/
+.contenedor-H {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contenedor-V {
+    display: flex;
+    flex-direction: column;
+}
+
+.items-center {
+    justify-content: center;
+    /*alineamiento horizontal */
+    align-items: center;
+    /* alineamiento vertical */
+}
+
+/*
+------------------------------
+Display Cuadricula
+------------------------------
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 20px;
+    padding: 20px;
+    margin: 25px;
+
+}
+
+.grid-item {
+    text-align: center;
+    padding: 25px;
+    box-shadow: 5px 5px 15px;
+}
+
+.material-icons.icono1 {
+    font-size: 48px;
+    color: rgba(0, 255, 0, 1);
+}
+
+
+/***************************************************
+Footer
+****************************************************/
+footer {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.rojo {
+    color: red;
+}
+
+.validoInput {
+    border: 2px solid darkgreen;
+}
+
+.errorInput {
+    border: 2px solid darkred;
+}
